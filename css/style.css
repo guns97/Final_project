@@ -1,0 +1,213 @@
+
+    body {
+        background-color: #8bacb1;
+        position: relative;
+    }
+
+
+    /* .navbar {
+        background-color: #17a2b8;
+        position:static;
+        
+    } */
+    /* #nav{
+        position: sticky;
+    } */
+
+    .header {
+        position: relative;
+        background-image: url('../image/bgr.jpg');
+
+        background-size: cover;
+        background-position: center;
+        height: 690px;
+    }
+
+    .overlay {
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(247,247,247,0.79);
+    }
+
+    .description {
+        position: absolute;
+        top: 30%;
+        margin: auto;
+        padding: 2em;
+
+    }
+
+    .description h1 {
+        color: #F97300;
+    }
+
+    .description p {
+        color: #666;
+        font-size: 20px;
+        width: 50%;
+        line-height: 1.5;
+    }
+
+    .description button {
+        border: 1px solid #F97300;
+        background: #F97300;
+        color: #fff;
+    }
+
+    .about {
+        margin: 4em 0;
+        padding: 1em;
+        position: relative;
+    }
+
+    h1 {
+        color: #F97300;
+        margin: 2em;
+    }
+
+    .about img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%
+    }
+
+    .about span {
+        display: block;
+        color: #888;
+        position: absolute;
+        left: 115px;
+    }
+
+    .about .desc {
+        padding: 2em;
+        border-left: 4px solid #10828C;
+    }
+
+    .about .desc h3 {
+        color: #10828C;
+    }
+
+    .about .desc p {
+        line-height: 2;
+        color: rgb(15, 1, 1);
+    }
+    .col-xl-4 .img-box {
+      width: 400px;
+      height: 300px;
+        padding: 50px;
+        text-align: justify;
+        background: #faf9f8c5;
+        margin-bottom: 20px;
+    }
+
+    /* Team */
+    html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      /* contact */
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        /* background-color: #f2f2f2; */
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+    
