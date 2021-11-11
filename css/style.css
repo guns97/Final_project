@@ -95,10 +95,10 @@
         color: rgb(15, 1, 1);
     }
     .col-xl-4 .img-box {
+      width: 400px;
+      height: 300px;
         padding: 50px;
-        font-size: 32px;
-        font-weight: bold;
-        text-align: center;
+        text-align: justify;
         background: #faf9f8c5;
         margin-bottom: 20px;
     }
@@ -209,5 +209,33 @@
         clear: both;
       }
       
+      /* sosial Media */
+
+      .social-media-icon {
+        padding: 2px 3px 1px 3px;
+        background: #222;
+        color: #fff;
+        margin: 5px;
+        border-radius: 4px;
+    }
+    a.social-media-icon:hover{
+        background: #fff!important;
+        color: #222!important;
+    }
+    .facebook{
+        background:  #3c5a98!important;
+    }
+    .twitter{
+        background: #1da1f2!important;
+    }
+    .blogger{
+        background: #ff5722!important;
+    }
+    .instagram{
+        background: #ee2fd4e5!important;
+    }
+    .linkedin{
+      background: #0a47eef8!important;
+    }
       
     
