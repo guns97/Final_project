@@ -63,9 +63,10 @@
         position: relative;
     }
 
-    h1 {
-        color: #f04511;
+    .container h1 {
+        color: #f37004;
         margin: 2em;
+        text-decoration: underline;
     }
 
     .about img {
