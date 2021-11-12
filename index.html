@@ -80,7 +80,7 @@
                     <h1>
                         Hello ,Welcome To My official Website
                         <p>
-                            Thanks for Your Acces my WEB,this my Personal Data</p>
+                            Thanks for Your Acces my WEB </p>
                         <button class="btn btn-outline-secondary btn-lg"><a href='#about' alt='Broken Link'>See
                                 More...</a></button>
 
@@ -101,7 +101,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-4 col-sm-12">
                     <img src="image/gun.png" class="img-fluid">
-                    <h4 class="text-center">S.Web Developer</h4>
+                    <h4 class="text-center">Software Developer</h4>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 desc">
 
@@ -130,10 +130,14 @@
                     </div>
                 </div>
                 <div class="col-xl-4">
-                    <div class="img-box"><img src="image/14.png" class="card-img-top" alt="..."></div>
+                    <div class="img-box"><img src="image/14.png" class="card-img-top" alt="...">
+                        <span>Software POS (Point Of Sale) di Kantin TDK Electronics</span>
+                    </div>
                 </div>
                 <div class="col-xl-4">
-                    <div class="img-box"><img src="image/bg.jpg" class="card-img-top" alt="..."></div>
+                    <div class="img-box"><img src="image/ppdb.PNG" class="card-img-top" alt="...">
+                        <span>Sistem Informasi Pendaftaran Online SMA</span>
+                    </div>
                 </div>
                 <div class="col-xl-4">
                     <div class="img-box"><img src="image/bg.jpg" class="card-img-top" alt="..."></div>
@@ -226,7 +230,7 @@
                     <div class="container">
                         <h2>Mark Zukenburg</h2>
                         <p class="title">Art Director</p>
-                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>Some text that describes me</p>
                         <p>example@example.com</p>
                         <p><button class="button">Contact</button></p>
                     </div>
@@ -235,11 +239,11 @@
 
             <div class="col">
                 <div class="card">
-                    <img src="image/userB.png" alt="John" style="width:100%">
+                    <img src="image/userB.png" alt="Guntur" style="width:100%">
                     <div class="container">
-                        <h2>John Doe</h2>
+                        <h2>Guntur Saputra</h2>
                         <p class="title">Designer</p>
-                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>Some text that describes me.</p>
                         <p>example@example.com</p>
                         <p><button class="button">Contact</button></p>
                     </div>
@@ -260,7 +264,7 @@
                 <img src="image/bg.jpg" style="width:100%">
             </div>
             <div class="column">
-                <form action="/About.html">
+                <form action="index.html#home">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                     <label for="lname">Last Name</label>
@@ -274,12 +278,23 @@
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
                         style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="myFunction()">
+
+
                 </form>
             </div>
         </div>
-    </div>
+        <p id="fname"></p>
+        <script>
 
+            function myFunction() {
+                var txt = document.getElementById("fname").value;
+                var r = confirm("Thank you " + txt + " for contacting us");
+                if (r == true) {
+                }
+            }
+        </script>
+    </div>
 
 </body>
 
